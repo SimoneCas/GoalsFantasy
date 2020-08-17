@@ -12,7 +12,6 @@ import javax.persistence.OneToMany;
 public class Team {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
 	private String teamId;
 	
 	private String name;
